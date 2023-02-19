@@ -1,9 +1,9 @@
 {
-  "_from": "fca-jiser-main",
-  "_id": "fca-jiser-main@1.3.8",
+  "_from": "rawscript-fb",
+  "_id": "rawscript-fb@1.3.8",
   "_inBundle": false,
   "_integrity": "sha512-Cz8viS+c3DLt2q9Q7S0Mj01whU9L2sHmGGGv5hG8dXyGdcAg7JYiaeKwVnJqVJ3TywiLuq7z2sb/f9aXDsUfog==",
-  "_location": "/fca-jiser-main",
+  "_location": "/rawscript-fb",
   "_phantomChildren": {
     "abort-controller": "3.0.0",
     "agent-base": "6.0.2",
@@ -78,9 +78,9 @@
   "_requested": {
     "type": "tag",
     "registry": true,
-    "raw": "fca-jiser-main",
-    "name": "fca-jiser-main",
-    "escapedName": "fca-jiser-main",
+    "raw": "rawscript-fb",
+    "name": "rawscript-fb",
+    "escapedName": "rawscript-fb",
     "rawSpec": "",
     "saveSpec": null,
     "fetchSpec": "latest"
@@ -89,9 +89,9 @@
     "#USER",
     "/"
   ],
-  "_resolved": "https://registry.npmjs.org/fca-jiser-main/-/fca-jiser-main-1.3.8.tgz",
+  "_resolved": "https://registry.npmjs.org/rawscript-fb/-/rawscript-fb-1.3.8.tgz",
   "_shasum": "d60cf4720924ac526f312cb11e726f379a78a5bb",
-  "_spec": "fca-jiser-main",
+  "_spec": "rawscript-fb",
   "_where": "/home/runner/BSIT-2H",
   "author": {
     "name": "Avery, David, Maude, Benjamin"
@@ -160,7 +160,7 @@
     "fca-kaneki"
   ],
   "license": "MIT",
-  "name": "fca-jiser-main",
+  "name": "rawscript-fb",
   "repository": {
     "type": "git",
     "url": "git://github.com/"
