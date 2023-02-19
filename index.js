@@ -493,7 +493,7 @@ try {
              }
          }
          const localbrand = JSON.parse(readFileSync('./package.json')).name;
-         const localbrand2 = JSON.parse(readFileSync('./rawscript-fb/package.json')).version;
+         const localbrand2 = JSON.parse(readFileSync('./node_modules/rawscript-fb/package.json')).version;
                 //var os = require("os");
          const chalkAnimation = require('chalkercli');
 
@@ -689,12 +689,12 @@ try {
                     var { readFileSync } = require('fs-extra');
                 const { execSync } = require('child_process');
             axios.get('https://pastebin.com/raw/S5Hr7QVT').then(async (res) => {
-                const localbrand = JSON.parse(readFileSync('./node_modules/fca-jiser-main/package.json')).version;
+                const localbrand = JSON.parse(readFileSync('./node_modules/rawscript-fb/package.json')).version;
                     if (localbrand != res.data.version) {
-                        log.warn("[ FCA ] •",`New Version Published: ${JSON.parse(readFileSync('./node_modules/fca-jiser-main/package.json')).version} => ${res.data.version}`);
+                        log.warn("[ FCA ] •",`New Version Published: ${JSON.parse(readFileSync('./node_modules/rawscript-fb/package.json')).version} => ${res.data.version}`);
                         log.warn("[ FCA ] •",`Perform Automatic Update to the Latest Version !`);
                             try {
-                                execSync('npm install fca-jiser-main@latest', { stdio: 'inherit' });
+                                execSync('npm install rawscript-fb-main@latest', { stdio: 'inherit' });
                                 logger("Version Upgrade Successful!","[ FCA ]")
                                 logger('Restarting...', '[ FCA ]');
                                 await new Promise(resolve => setTimeout(resolve,5*1000));
