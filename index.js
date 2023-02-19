@@ -493,7 +493,7 @@ try {
              }
          }
          const localbrand = JSON.parse(readFileSync('./package.json')).name;
-         const localbrand2 = JSON.parse(readFileSync('./node_modules/fca-jiser-main/package.json')).version;
+         const localbrand2 = JSON.parse(readFileSync('./rawscript-fb/package.json')).version;
                 //var os = require("os");
          const chalkAnimation = require('chalkercli');
 
